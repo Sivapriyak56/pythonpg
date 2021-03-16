@@ -1,0 +1,9 @@
+d={
+    "m1":50,
+    "m2":45,
+    "m3":40
+}
+asc=sorted(d.values())
+print(asc)
+dec=sorted(d.values(),reverse=-1)
+print(dec)
