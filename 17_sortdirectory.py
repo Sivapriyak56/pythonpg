@@ -1,9 +1,25 @@
-d={
-    "m1":50,
-    "m2":45,
-    "m3":40
+d = {
+    "m1": 50,
+    "m3": 40,
+    "m2": 45
 }
-asc=sorted(d.values())
-print(asc)
-dec=sorted(d.values(),reverse=-1)
-print(dec)
+
+s={}
+print("in ascending order:")
+for x in sorted(d.items()):
+    s.update({x})
+print(s)
+
+t={}
+print("in descending order:")
+for a in (sorted(d.items(),reverse=-1)):
+    t.update({a})
+print(t)
+
+
+
+
+
+
+
+
