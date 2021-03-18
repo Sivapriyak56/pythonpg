@@ -5,9 +5,7 @@ str=""
 a=s[0]
 b=s[-1]
 d=s[1:-1]
-for i in d:
-    str=str+i
-print(b+str+a)
+print(b+d+a)
 
 
 
