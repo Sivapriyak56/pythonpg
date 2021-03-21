@@ -7,5 +7,4 @@ for x in cr1:
             break
     else:
         cr.append(x)
-
 print(cr)
